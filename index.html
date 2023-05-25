@@ -16,7 +16,7 @@
   <p id="description">
     Thank you for taking the time to help us improve the platform
   </p>
-  <form id="surbey-form">
+  <form id="survey-form">
     <fieldset>
       <label for="name" id="name-label">
         Name
@@ -28,12 +28,12 @@
       </label>
       <label for="numbem" id="number-label">
         Age <span>(optional)</span>
-        <input id="number" type="number" min="10" placeholder="Set your age">
+        <input id="number" type="number" min="10" max="120" placeholder="Set your age">
       </label>
       <label>
         Which option best describes your current role?
         <select id="dropdown">
-          <option value="">Select current role</option>
+          <option value="6">Select current role</option>
           <option value="1">Student</option>
           <option value="2">Full time job</option>
           <option value="3">Full time learner</option>
@@ -43,14 +43,14 @@
       </label>
       <label>
         Would you recommend freeCodeCamp to a friend?
-        <label for="defi"> <input type="radio" name="recomemend" id="defi"> Definitely</label>
-        <label for="maybe"> <input type="radio" name="recomemend" id="maybe"> Maybe </label>
-        <label for="sure"> <input type="radio" name="recomemend" id="sure"> Not sure</label>
+        <label for="defi"> <input type="radio" name="recomemend" id="defi" value="o"> Definitely</label>
+        <label for="maybe"> <input type="radio" name="recomemend" id="maybe" value="i"> Maybe </label>
+        <label for="sure"> <input type="radio" name="recomemend" id="sure" value="u"> Not sure</label>
       </label>
       <label>
         What is your favorite feature of freeCodeCamp?
         <select id="dropdown2">
-          <option value="">Select an option</option>
+          <option value="5">Select an option</option>
           <option value="1">Challenges</option>
           <option value="2">Projects</option>
           <option value="3">Community</option>
